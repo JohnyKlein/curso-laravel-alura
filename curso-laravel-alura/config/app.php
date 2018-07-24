@@ -177,6 +177,9 @@ return [
         estoque\Providers\EventServiceProvider::class,
         estoque\Providers\RouteServiceProvider::class,
 
+        //LIB nativa com Views de CRUD
+        MarcusCampos\Scafold\ScafoldServiceProvider::class,
+
     ],
 
     /*
