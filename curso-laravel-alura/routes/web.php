@@ -5,4 +5,4 @@ Route::get("/", function(){
 });
 
 Route::get("/produtos", "ProdutoController@listaProdutos");
-Route::get("/produtos/detalhaProduto", "ProdutoController@detalhaProduto");
+Route::get("/produtos/detalhaProduto/{id}", "ProdutoController@detalhaProduto");

@@ -15,7 +15,7 @@
                         <td><?= $p->descricao ?></td>
                         <td><?= $p->quantidade ?></td>
                         <td>
-                            <a href="/produtos/detalhaProduto?id=<?= $p->id ?>">Visualizar</a>
+                            <a href="/produtos/detalhaProduto/<?= $p->id ?>">Visualizar</a>
                         </td>
                     </tr>
                 <?php endforeach; ?>
