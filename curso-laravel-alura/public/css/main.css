@@ -1,0 +1,36 @@
+nav.navbar.navbar-default{
+    background: #141b68;
+    background: -moz-linear-gradient(left, #141b68 0%, #7db9e8 100%);
+    background: -webkit-linear-gradient(left, #141b68 0%,#7db9e8 100%);
+    background: linear-gradient(to right, #141b68 0%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141b68', endColorstr='#7db9e8',GradientType=1 );
+    margin-top: 10px;
+  }
+  
+  nav.navbar.navbar-default a {
+    color: white;
+  }
+  
+  li p.navbar-text, a.navbar-brand {
+    color: white!important;
+    font-weight: bolder;
+  }
+  
+  footer.footer {
+    background: #141b68;
+    background: -moz-linear-gradient(left, #141b68 0%, #7db9e8 100%);
+    background: -webkit-linear-gradient(left, #141b68 0%,#7db9e8 100%);
+    background: linear-gradient(to right, #141b68 0%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141b68', endColorstr='#7db9e8',GradientType=1 );
+    margin-top: 55px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  footer.footer p {
+    padding: 10px;
+  }
+
+.lista-produto {
+  height: 70%;
+}
