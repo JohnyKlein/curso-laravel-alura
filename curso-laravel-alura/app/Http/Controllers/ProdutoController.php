@@ -21,4 +21,10 @@ class ProdutoController extends Controller {
     public function novoProduto() {
         return view("produto/novoProduto");
     }
+
+    public function adicionaProduto() {
+        $nome = Request::input('nome');
+        
+        return view("produto/adicionaProduto")->with('nome', $nome);
+    }
 }
