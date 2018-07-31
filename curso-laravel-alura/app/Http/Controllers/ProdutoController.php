@@ -17,4 +17,8 @@ class ProdutoController extends Controller {
 
         return view("produto/produtoDetalhe")->withProduto($produto[0]);
     }
+
+    public function novoProduto() {
+        return view("produto/novoProduto");
+    }
 }
