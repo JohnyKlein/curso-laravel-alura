@@ -1,8 +1,8 @@
 nav.navbar.navbar-default{
-    background: #141b68;
-    background: -moz-linear-gradient(left, #141b68 0%, #7db9e8 100%);
-    background: -webkit-linear-gradient(left, #141b68 0%,#7db9e8 100%);
-    background: linear-gradient(to right, #141b68 0%,#7db9e8 100%);
+    background: #166e4b;
+    background: -moz-linear-gradient(left, #166e4b 0%, #7db9e8 100%);
+    background: -webkit-linear-gradient(left, #166e4b 0%,#7db9e8 100%);
+    background: linear-gradient(to right, #166e4b 0%,#7db9e8 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141b68', endColorstr='#7db9e8',GradientType=1 );
     margin-top: 10px;
   }
@@ -17,10 +17,10 @@ nav.navbar.navbar-default{
   }
   
   footer.footer {
-    background: #141b68;
-    background: -moz-linear-gradient(left, #141b68 0%, #7db9e8 100%);
-    background: -webkit-linear-gradient(left, #141b68 0%,#7db9e8 100%);
-    background: linear-gradient(to right, #141b68 0%,#7db9e8 100%);
+    background: #166e4b;
+    background: -moz-linear-gradient(left, #166e4b 0%, #7db9e8 100%);
+    background: -webkit-linear-gradient(left, #166e4b 0%,#7db9e8 100%);
+    background: linear-gradient(to right, #166e4b 0%,#7db9e8 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141b68', endColorstr='#7db9e8',GradientType=1 );
     margin-top: 55px;
     color: white;
@@ -33,4 +33,10 @@ nav.navbar.navbar-default{
 
 .lista-produto {
   height: 70%;
+}
+
+.btn-estoque-primary {
+  width: 20%;
+  margin: 15px 0 0 0;
+  background-color: #166e4b;
 }
