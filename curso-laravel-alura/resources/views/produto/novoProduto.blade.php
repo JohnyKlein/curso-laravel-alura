@@ -2,7 +2,7 @@
 
 @section('conteudo')
     
-    <form>
+    <form action="/produtos/adicionaProduto">
         <div class="form-group">
             <label>Nome</label>
             <input name="nome" type="text" class="form-control"/>
