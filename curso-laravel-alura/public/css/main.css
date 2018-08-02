@@ -40,3 +40,9 @@ nav.navbar.navbar-default{
   margin: 15px 0 0 0;
   background-color: #166e4b;
 }
+
+.div-alerta-sucesso {
+  font-weight: bold;
+  display: inline;
+  padding: 20px;
+}
