@@ -15,6 +15,7 @@
                     <a href="/produtos" class="navbar-brand">Estoque Laravel</a>
                 </div>
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/produtos/novoProduto">Novo</a></li>
                     <li><a href="/produtos">Listagem</a></li>
                 </ul>
             </div>
