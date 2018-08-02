@@ -32,7 +32,7 @@ nav.navbar.navbar-default{
   }
 
 .lista-produto {
-  height: 70%;
+  min-height: 70%;
 }
 
 .btn-estoque-sucess {
