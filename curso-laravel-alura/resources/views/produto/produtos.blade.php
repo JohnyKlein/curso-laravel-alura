@@ -23,7 +23,9 @@
     </div>
 
     @if(old('nome'))
-        Produto {{old('nome')}} adicionado com sucesso!
+        <div class="alert-success div-alerta-sucesso">
+            Produto {{old('nome')}} adicionado com sucesso!
+        </div>
     @endif
 
 @stop
