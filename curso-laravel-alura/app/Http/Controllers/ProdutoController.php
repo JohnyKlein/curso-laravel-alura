@@ -6,7 +6,7 @@ use Request;
 class ProdutoController extends Controller {
 
     public function listaProdutos(){
-        $produtos = DB::select("SELECT * FROM produtos");
+        $produtos = DB::select("SELECT * FROM produtos ORDER BY id");
         
         return view("produto/produtos")->withProdutos($produtos);
     }
