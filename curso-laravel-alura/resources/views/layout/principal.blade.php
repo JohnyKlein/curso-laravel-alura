@@ -1,5 +1,5 @@
 <html lang="en">
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,8 +15,8 @@
                     <a href="/produtos" class="navbar-brand">Estoque Laravel</a>
                 </div>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/produtos/novoProduto">Novo</a></li>
-                    <li><a href="/produtos">Listagem</a></li>
+                    <li><a href="{{action('ProdutoController@novoProduto')}}">Novo</a></li>
+                    <li><a href="{{action('ProdutoController@listaProdutos')}}">Listagem</a></li>
                 </ul>
             </div>
         </nav>
