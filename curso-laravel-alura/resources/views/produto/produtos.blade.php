@@ -13,8 +13,11 @@
                         <td>{{ $p->valor }}</td> 
                         <td>{{ $p->descricao }}</td>
                         <td>{{ $p->quantidade }}</td>
-                        <td>
+                        <td class="text-center">
                             <a href="/produtos/detalhaProduto/{{$p->id}}">Visualizar</a>
+                        </td>
+                        <td class="text-center">
+                            <a href="/produtos/excluirProduto/{{$p->id}}">Excluir</a>
                         </td>
                     </tr>
                 @endforeach
