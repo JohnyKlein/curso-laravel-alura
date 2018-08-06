@@ -33,4 +33,9 @@ class ProdutoController extends Controller {
         
         return redirect("/produtos")->withInput(Request::only("nome"));
     }
+
+    public function listaJson() {
+        $produtos = DB::select('select * from produtos');
+        return $produtos;
+    }
 }
